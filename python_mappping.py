@@ -10,7 +10,7 @@ reference_data_path = os.path.join(script_dir, 'reference_data.xlsx')
 output_path = os.path.join(script_dir, 'mapped_output.csv')
 
 # Column names (update based on your actual headers)
-raw_key_column = 'id'             # Column in raw_data.csv
+raw_key_column = 'lookup_key'             # Column in raw_data.csv
 reference_key_column = 'lookup_key'  # Column in reference_data.xlsx
 
 try:
